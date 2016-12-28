@@ -1,0 +1,52 @@
+{
+	"root_folder": "iot-hub-python-get-started",
+	"hub_name": "",
+	"iothubowner_policy_key": "",
+	"device_policy_key": "",
+	"documentdb_serviceUri": "",
+	"documentdb_key": "",
+	"documentdb_database": "",
+	"documentdb_collection": "",
+	"_visual_studio": {
+		"root_folder": {
+			"label": "Root Folder",
+			"description": "Root folder for the sample",
+			"selector": "string"
+		},
+		"hub_name": {
+			"label": "Hub Name",
+			"description": "The Azure IOT Hub host name",
+			"selector": "string"
+		},
+		"iothubowner_policy_key": {
+			"label": "IOT Hubowner Policy Key",
+			"description": "IOT Hub owner policy key",
+			"selector": "string"
+		},
+		"device_policy_key": {
+			"label": "IOT Hub device Policy Key",
+			"description": "IOT Hub device policy key",
+			"selector": "string"
+		},
+		"documentdb_serviceUri": {
+			"label": "DocumentDB Uri",
+			"description": "The Uri of DocumentDB service",
+			"selector": "string"
+		},
+		"documentdb_key": {
+			"label": "DocumentDB Primary Key",
+			"description": "DocumentDB Primary Key",
+			"selector": "string"
+		},
+		"documentdb_database": {
+			"label": "DocumentDB Database Name",
+			"description": "DocumentDB Database Name",
+			"selector": "string"
+		},
+		"documentdb_collection": {
+			"label": "DocumentDB Collection Name",
+			"description": "DocumentDB Collection Name",
+			"selector": "string"
+		}
+	}
+}
