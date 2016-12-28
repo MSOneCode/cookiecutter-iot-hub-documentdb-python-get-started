@@ -1,5 +1,5 @@
 {
-	"root_folder": "iot-hub-python-get-started",
+	"root_folder": "iot-hub-documentdb-python-get-started",
 	"hub_name": "",
 	"iothubowner_policy_key": "",
 	"device_policy_key": "",
