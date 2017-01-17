@@ -57,7 +57,7 @@ To do this, refer to article [Create a DocumentDB account](https://docs.microsof
 ## Building the sample
 You can use Eclipse with PyDev Plugin to import the sample project.
 ### Preparation
-- Run the **installdependency.cmd** to install dependency
+- Run the **installdependency.cmd** to install dependency or change to the directory containing `requirements.txt` and run comman `pip install -r requirements.txt`
 - Install the Python package **requests** via command pip install requests
 - Download [Eclipse](https://eclipse.org/downloads/)
 - Install PyDev plugin via Eclipse Marketplace, click **Help** -> **Eclipse Marketplace**, then input **PyDev** in the search box and enter, then click the **install** button and follow the tips to install until **Finish** and restart Eclipse.

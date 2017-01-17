@@ -1,2 +1,2 @@
 @echo off
-pip install pydocumentdb
+pip install -r requirements.txt
