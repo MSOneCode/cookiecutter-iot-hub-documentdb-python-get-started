@@ -85,9 +85,9 @@ if __name__ == '__main__':
     connectionString = 'HostName={{cookiecutter.hub_name}}.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey={{cookiecutter.iothubowner_policy_key}}'
     dm = DeviceManager(connectionString)
     deviceId = 'iotdevice1'
-    print dm.createDeviceId(deviceId)
-    print dm.retrieveDeviceId(deviceId)
-    print dm.listDeviceIds()
+    print(dm.createDeviceId(deviceId))
+    print(dm.retrieveDeviceId(deviceId))
+    print(dm.listDeviceIds())
 
     # read the device message stored in document db
-    print pydocutils.readDocument(DeviceManager.HOST, DeviceManager.KEY, DeviceManager.DATABASE, DeviceManager.COLLECTION, deviceId)
+    print(pydocutils.readDocument(DeviceManager.HOST, DeviceManager.KEY, DeviceManager.DATABASE, DeviceManager.COLLECTION, deviceId))

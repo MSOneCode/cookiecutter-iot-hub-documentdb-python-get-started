@@ -72,7 +72,7 @@ if __name__ == '__main__':
     d2cMsgSender = D2CMsgSender(connectionString)
     deviceId = 'iotdevice1'
     message = 'Hello, IoT Hub'
-    print d2cMsgSender.sendD2CMsg(deviceId, message)
+    print(d2cMsgSender.sendD2CMsg(deviceId, message))
 
     # store the device message to document db
     pydocutils.upsertDocument(D2CMsgSender.HOST, D2CMsgSender.KEY, D2CMsgSender.DATABASE, D2CMsgSender.COLLECTION, { 'id': deviceId, 'message': message })
